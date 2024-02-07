@@ -129,7 +129,7 @@ const handleSubmit = async (event)=>{
 $form.addEventListener("submit", handleSubmit);
 
 //------------------------------------------------------------------------------ Control del Cache ------------------------------------------------------------------------------
-caches.open("File-Statics").then(cache=>{
-    cache.addAll(["./index.html", "./gracias.html", "./css/style.css", "./img/present.png", "./img/aciz.png", "./img/cv.png",
-    "./img/gato.png", "./img/io2.png", "./js/main.js", "./js/efectoLuz.js"]);
-})
+if(navigator.serviceWorker){
+    navigator.serviceWorker.register("./sw.js");
+}
+
