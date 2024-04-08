@@ -385,9 +385,9 @@ main{
             .Pimg2{
                 background-image: url(../img/cv.png);
             }
-            /* .Pimg3{
-                background-image: url(https://th.bing.com/th/id/R.04cadd59f97451bd7730ca2afbc68b29?rik=zA7dvsgbcwI5CQ&riu=http%3a%2f%2fcdn2.business2community.com%2fwp-content%2fuploads%2f2015%2f03%2fResponsive_Design_Graphic_v2-1024x521.jpg.jpg&ehk=ymArOP46vDVQrQGIKex0A%2fBP59%2fiwDNautyrfK2DXbE%3d&risl=&pid=ImgRaw&r=0);
-            } */
+            .Pimg3{
+                background-image: url(../img/translog.png);
+            }
 
             .title-portafolios{
                 color: #ffffff;
@@ -423,7 +423,7 @@ main{
     width: 100%;
     height: 100%;
     margin-top: 10px;
-    margin-bottom: 50px;
+    margin-bottom: 80px;
 
     .columna-contacto{
         height: 100%;
@@ -475,7 +475,7 @@ main{
         .contenedor-formulario{
             display: flex;
             flex-direction: column;
-            align-items: start;
+            align-items: center;
             width: 100%;
             margin: 0px 100px 0 50px;
             gap: 20px;
@@ -483,6 +483,11 @@ main{
             form{
                 width: 100%;
                 color: #bbbbbb;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                gap: 20px;
 
             }
             .contacto-nombre-email{
@@ -492,7 +497,6 @@ main{
                 height: 80px;
                 border-radius: 15px;
                 text-indent:25px;
-                margin-bottom: 30px;
                 color: #ffffff;
                 font-size: 15px;
             }
@@ -501,9 +505,8 @@ main{
                 border:2px solid #62c79a;
                 width: 100%;
                 border-radius: 15px;
-                padding: 20px 20px 280px 0;
+                padding: 20px 20px 100px 0;
                 text-indent:25px;
-                margin-bottom: 30px;
                 color: #ffffff;
                 font-size: 15px;
             }
@@ -518,6 +521,18 @@ main{
                 border-radius: 15px;
                 color: #000;
                 font-size: 15px;
+            }
+            .error{
+                font-size: 16px;
+                font-weight: 600;
+                color: #cf3636;
+                height: 22px;
+            }
+            .title-contacto{
+                color: #29ef8a;
+                font-size: 25px;
+                font-weight: 700;
+                display: none;
             }
         }
     }
@@ -621,5 +636,9 @@ footer{
     
     .iluminacion{
         display: none;
+    }
+
+    .title-contacto{
+        display: block !important;
     }
 }

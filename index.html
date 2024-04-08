@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=6">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta charset="utf-8" />
+
+    <!--------------- DESCRIPCION --------------->
     <title>Mi persona: Nestor Salom</title>
     <meta name="description" content="Soy desarrollor web y desarrollor de aplicaciones de escritorio, que fusiona la creatividad con la responsabilidad para crear experiencias digitales únicas.">
     
@@ -13,30 +15,40 @@
     <meta property="fb:admins" content="100000984792126">
     <meta property="fb:app_id" content="255986568181021">
 
+    <!--------------- INSTAGRAM --------------->
     <meta property="og:site_name" content="Mi persona: Nestor Salom">
     <meta property="og:description" content="Soy desarrollor web y desarrollor de aplicaciones de escritorio, que fusiona la creatividad con la responsabilidad para crear experiencias digitales únicas.">
     <meta property="og:title" content="Programador Junior: Nestor Salom">
-    <meta property="og:url" content="https://ndsmart.000webhostapp.com/">
+    <meta property="og:url" content="https://ndnestor098.github.io/WebCV/">
     <meta property="og:image" content="./img/prensent.png">
     <meta property="og:updated_time" content="2024-01-28T10:35:47+00:00">
     <meta property="og:type" content="website">
 
+    <!--------------- TWITTER --------------->
     <meta property="twitter:card" content="summary">
     <meta property="twitter:site_name" content="Mi persona: Nestor Salom">
     <meta property="twitter:description" content="Soy desarrollor web y desarrollor de aplicaciones de escritorio, que fusiona la creatividad con la responsabilidad para crear experiencias digitales únicas.">
     <meta property="twitter:title" content="Programador Junior: Nestor Salom">
-    <meta property="twitter:url" content="https://ndsmart.000webhostapp.com//">
+    <meta property="twitter:url" content="https://ndnestor098.github.io/WebCV/">
     <meta property="twitter:image" content="./img/prensent.png">
     <meta property="twitter:updated_time" content="2024-01-28T10:35:47+00:00">
 
-    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
-    <meta rel="canonical" href="https://ndsmart.000webhostapp.com/">
+    <!--------------- PRECONECCIONES --------------->
+    <meta rel="canonical" href="https://ndnestor098.github.io/WebCV/">
     <meta name="robots" content="NOODP,NOYDIR">
-
     <link rel="stylesheet" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://kit.fontawesome.com">
     <script src="https://kit.fontawesome.com/8f34396e62.js" crossorigin="anonymous"></script>
+    <script src="https://www.google.com/recaptcha/api.js"></script>
+
+    <!--------------- FAVICON --------------->
+    <link rel="shortcut icon" href="./img/favicon/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="./img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="./img/favicon/site.webmanifest">
+
 </head>
 <body class="posicionMouse">
     <!--------------- Presentacion del inicio de header --------------->
@@ -175,8 +187,8 @@
                                 <p>Intermedio</p>
                             </div>
                             <div>
-                                <p class="title-lenguaje"><i class="fa-solid fa-circle-check"></i> <span>React</span></p>
-                                <p>Iniciando</p>
+                                <p class="title-lenguaje"><i class="fa-solid fa-circle-check"></i> <span>PHP</span></p>
+                                <p>Intermedio</p>
                             </div>
                         </div>
                     </div>
@@ -206,6 +218,15 @@
                         <div class="content-button-portafolio">
                             <a href="https://github.com/Ndnestor098/CV" target="_blank" class="link-github">Github</a>
                             <!-- <a href="#" class="ver-demo">Ver Demo</a> -->
+                        </div>
+                    </div>
+                    <div class="content-portafolio">
+                        <div class="img Pimg3">
+                        </div>
+                        <p class="title-portafolios">Corporation Translog</p>
+                        <div class="content-button-portafolio">
+                            <a href="https://github.com/Ndnestor098/CorporationTranslog" target="_blank" class="link-github">Github</a>
+                            <a href="http://corporationtranslog.infinityfreeapp.com/" class="ver-demo" target="_blank">Ver Pagina</a>
                         </div>
                     </div>
                 </div>
@@ -239,10 +260,13 @@
 
                 <div class="columna-formulario">
                     <div class="contenedor-formulario">
-                        <form id="form" action="https://formspree.io/f/xjvngjzo" method="POST">
+                        <p class="title-contacto">Solicite su consulta</p>
+                        <form id="form" action="./php/correo.php" method="POST" class="CONTACTO">
                             <input class="contacto-nombre-email" required type="text" name="name" id="name" placeholder="Nombre y Apellido *">
                             <input class="contacto-nombre-email" required type="email" name="email" id="email" placeholder="Email *">
-                            <input class="contacto-mensaje" required type="text" name="message" id="message" placeholder="Mensaje *">
+                            <textarea class="contacto-mensaje" required name="message" id="message" cols="30" rows="10" placeholder="Mensaje *"></textarea>
+                            <p class="error"></p>
+                            <div class="g-recaptcha" data-sitekey="6LdyuLQpAAAAAEeOc6vO_xgXDqq8LVNNJfuL-8SJ"></div>
                             <input class="contacto-enviar" type="submit" value="Enviar Mensaje">
                         </form>
                     </div>
@@ -252,9 +276,12 @@
         </div>
     </main>
 
-    <div class="iluminacion"></div><!--  Efecto de Iluminacion -->
-    <!-- <footer></footer> -->
+    <!--  Efecto de Iluminacion -->
+    <div class="iluminacion"></div>
+
+    <!--  files JS -->
     <script src="./js/main.js"></script>
+    <script src="./js/ajax.js"></script>
     <script src="./js/efectoLuz.js"></script>
 </body>
 </html>
