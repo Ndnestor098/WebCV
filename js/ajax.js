@@ -17,7 +17,9 @@ formularios.addEventListener("submit", (e)=>{
 
         let config = { 
             method:method,
-            header:encabezado,
+            header:{
+                'accept': 'application/json'
+            },
             mode:"cors",
             cache:'no-cache',
             body:data,
