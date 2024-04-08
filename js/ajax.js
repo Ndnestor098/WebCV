@@ -20,8 +20,6 @@ formularios.addEventListener("submit", (e)=>{
             header:{
                 'accept': 'application/json'
             },
-            mode:"cors",
-            cache:'no-cache',
             body:data,
         }
         
