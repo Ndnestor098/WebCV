@@ -6,7 +6,7 @@ formularios.addEventListener("submit", (e)=>{
 
     var response = grecaptcha.getResponse();
     
-    if(response.length != 0){
+    if(response.length == 0){
         document.querySelector(".error").innerHTML = 'El reCAPTCHA es obligatorio.';
     } else {
         let data = new FormData(formularios);
