@@ -22,7 +22,7 @@ formularios.addEventListener("submit", (e)=>{
             cache:'no-cache',
             body:data,
         }
-        console.log("todo bien hasta aqui")
+        
         fetch(action, config)
             .then(res => res.text())
             .then(res => {
