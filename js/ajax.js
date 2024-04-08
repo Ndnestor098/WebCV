@@ -24,6 +24,7 @@ formularios.addEventListener("submit", (e)=>{
             cache:'no-cache',
             body:data,
         }
+        document.querySelector(".error").innerHTML = "Github Pages, no acepta PHP.";
         
         fetch(action, config)
             .then(res => res.text())
