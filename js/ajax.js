@@ -24,18 +24,18 @@ formularios.addEventListener("submit", (e)=>{
             cache:'no-cache',
             body:data,
         }
-        document.querySelector(".error").innerHTML = "Github Pages, no acepta PHP.";
+        document.querySelector(".error").innerHTML = "Github Pages, no acepta PHP. Contacte por Whatsapp.";
         
-        fetch(action, config)
-            .then(res => res.text())
-            .then(res => {
+        // fetch(action, config)
+        //     .then(res => res.text())
+        //     .then(res => {
 
-                if(res.search('./') == 0){
-                    window.location = res;
-                }else{
-                    document.querySelector(".error").innerHTML = res;
-                }
-            });
+        //         if(res.search('./') == 0){
+        //             window.location = res;
+        //         }else{
+        //             document.querySelector(".error").innerHTML = res;
+        //         }
+        //     });
     }
     
     
