@@ -1,4 +1,8 @@
 "use strict";
+//------------------------------------------------------------------------------ Service Worked ------------------------------------------------------------------------------
+if("serviceWorker" in navigator){
+    navigator.serviceWorker.register("/sw.js");
+}
 
 //------------------------------------------------------------------------------ Control del Menu ------------------------------------------------------------------------------
 const classMenu = ["click-home","click-sobre-mi","click-experiencias","click-portafolio","click-email"]; // Nombre de las clases
