@@ -602,12 +602,6 @@ footer{
     right: 0;
     top: 0;
     margin: 50px 30px 0 0;
-
-    i{
-        font-size: 32px;
-        font-weight: 600; 
-        color: #62c79a;
-    }
 }
 
 /* Responsive */
