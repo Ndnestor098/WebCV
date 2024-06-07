@@ -24,7 +24,7 @@ formularios.addEventListener("submit", (e)=>{
             cache:'no-cache',
             body:data,
         }
-        document.querySelector(".error").innerHTML = "Github Pages, no acepta PHP. Contacte por Whatsapp.";
+        document.querySelector(".error").innerHTML = "Github Pages, no acepta PHP. Contacte por los medios dados.";
         
         // fetch(action, config)
         //     .then(res => res.text())
