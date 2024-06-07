@@ -25,6 +25,7 @@ const APP_SHELL =[
     '/WebCV/assets/img/favicon/favicon.ico',
     '/WebCV/assets/img/favicon/apple-touch-icon.png',
     '/WebCV/assets/img/favicon/android-chrome-512x512.png',
+    '/WebCV/assets/img/svg/lenguague.svg',
 ] 
 
 self.addEventListener("install", function (e){
