@@ -552,6 +552,64 @@ footer{
     background-color: #15191f;
 }
 
+/* ----------------------------------- Lenguage --------------------------------- */
+.lenguague{
+    height: 100vh; 
+    width: 100%; 
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+
+    .cuadro{
+        height: 300px;
+        width: 400px;
+        background-color: rgb(19, 25, 31);
+        border: 2px solid #29ef8a;
+        display: flex;
+        gap: 30px;
+        flex-direction: column;
+        margin: 0 5px;
+
+        div{
+            text-align: center;
+            width: 100%;
+
+            p{
+                color: #29ef8a;
+                font-size: 19px;
+                font-weight: 600;
+                margin-top: 10px;
+            }
+        }
+        a{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            gap: 15px;
+            
+            span{
+                color: #ffffff;
+                font-size: 16px;
+                font-weight: 600;
+            }
+        }
+    }
+}
+
+.world{
+    position: fixed;
+    right: 0;
+    top: 0;
+    margin: 50px 30px 0 0;
+
+    i{
+        font-size: 32px;
+        font-weight: 600; 
+        color: #62c79a;
+    }
+}
+
 /* Responsive */
 @media (max-width: 950px) {
     /* configuraciones bases */
@@ -646,5 +704,24 @@ footer{
 
     .title-contacto{
         display: block !important;
+    }
+
+    .world{
+        margin: 20px 10px 0 0;
+    }
+}
+@media (max-width: 440px) {
+    .Experiencias {
+        & .experiencia-content {
+            & .cuadrado-experiencias {
+                .ordenar-experiencia {
+                    margin-left: 0 !important;
+                }
+            }
+        }
+    }
+    .cuadrado-experiencias {
+        width: 350px !important;
+        height: 400px !important;
     }
 }
