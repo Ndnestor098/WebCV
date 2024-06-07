@@ -16,7 +16,7 @@ Questa applicazione web è stata sviluppata utilizzando HTML, CSS e JavaScript. 
 
 ## Schermata
 
-![Schermata](img/present.png)
+![Schermata](assets/img/present.png)
 
 ## Tecnologie Utilizzate
 
