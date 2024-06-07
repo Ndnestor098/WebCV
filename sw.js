@@ -25,7 +25,20 @@ const APP_SHELL =[
     '/WebCV/assets/img/favicon/favicon.ico',
     '/WebCV/assets/img/favicon/apple-touch-icon.png',
     '/WebCV/assets/img/favicon/android-chrome-512x512.png',
+    '/WebCV/assets/img/svg/check.svg',
+    '/WebCV/assets/img/svg/config.svg',
+    '/WebCV/assets/img/svg/email-white.svg',
+    '/WebCV/assets/img/svg/email.svg',
+    '/WebCV/assets/img/svg/facebook.svg',
+    '/WebCV/assets/img/svg/github.svg',
+    '/WebCV/assets/img/svg/home.svg',
+    '/WebCV/assets/img/svg/insta-white.svg',
+    '/WebCV/assets/img/svg/insta.svg',
     '/WebCV/assets/img/svg/lenguague.svg',
+    '/WebCV/assets/img/svg/linkedin.svg',
+    '/WebCV/assets/img/svg/user.svg',
+    '/WebCV/assets/img/svg/whatsapp.svg',
+    '/WebCV/assets/img/svg/work.svg',
 ] 
 
 self.addEventListener("install", function (e){
