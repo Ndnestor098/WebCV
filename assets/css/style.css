@@ -151,6 +151,9 @@ nav{
     background-color: #29ef8a;
     border-radius: 50%;
     border: 4px solid rgb(0, 18, 8);
+    height: 50px;
+    width: 50px;
+    padding: 5px;
 }
 .activate-a{
     display: block !important;
