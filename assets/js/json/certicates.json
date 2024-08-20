@@ -1,0 +1,19 @@
+{
+    "certificados": [
+        {
+            "titulo": "SQL: A Practical Introduction for Querying Databases",
+            "imagen": "https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~Q6J60QET88R2/CERTIFICATE_LANDING_PAGE~Q6J60QET88R2.jpeg",
+            "enlace": "https://coursera.org/share/facecf3d5e07daa479159642a9ca66c6"
+        },
+        {
+            "titulo": "Technical Support Fundamentals",
+            "imagen": "https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~29I159WE4LNL/CERTIFICATE_LANDING_PAGE~29I159WE4LNL.jpeg",
+            "enlace": "https://coursera.org/share/a118196dbddf9be6b7a086bd55e5e78f"
+        },
+        {
+            "titulo": "Building Web Applications in PHP",
+            "imagen": "https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~DLRSMZZQ4XBY/CERTIFICATE_LANDING_PAGE~DLRSMZZQ4XBY.jpeg",
+            "enlace": "https://coursera.org/share/bff12bf3e36946f7dfeb85b10c26b088"
+        }
+    ]
+}
