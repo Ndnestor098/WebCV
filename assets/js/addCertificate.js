@@ -32,9 +32,7 @@ fetch(url)
             enlace.target = '_blank';
             enlace.classList.add('link-github');
             const langValue = document.documentElement.lang;
-            if(langValue == 'es') enlace.textContent = 'Ver mas';
-            else if(langValue == 'en') enlace.textContent = 'See more';
-            else enlace.textContent = 'Mostra altro';
+            enlace.textContent = certificado.buttom[langValue];
 
             // Añadir el enlace al contenedor del botón
             contentButton.appendChild(enlace);
