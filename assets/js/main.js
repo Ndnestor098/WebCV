@@ -64,9 +64,21 @@ const agregarClases = (element)=>{
 //Con esta funcion eliminamos las clases de los botones del menu
 const eliminarClases = ()=>{
     for (let x = 0; x < classMenu.length; x++) {
-        document.getElementById(classMenu[x]).lastChild.classList.remove("activate-a");
-        document.getElementById(classMenu[x]).classList.remove("activate-li");
-        document.getElementById(classMenu[x]).firstChild.classList.remove("activate-i");
+        const element = document.getElementById(classMenu[x]);
+        if (element) {
+            const firstChild = element.firstChild;
+            const lastChild = element.lastChild;
+            
+            if (lastChild && lastChild.classList) {
+                lastChild.classList.remove("activate-a");
+            }
+            if (firstChild && firstChild.classList) {
+                firstChild.classList.remove("activate-i");
+            }
+            if (element.classList) {
+                element.classList.remove("activate-li");
+            }
+        }
     }
 } 
 
