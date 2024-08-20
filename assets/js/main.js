@@ -55,11 +55,29 @@ const menu = (responsive)=>{
 }
 
 //Activamos el elemento clickeado agregando las clases con un tiempo de espera de 0 segundo, ya que tiene un bug con el css, esto para que la animacion funcione
-const agregarClases = (element)=>{
-    document.getElementById(element).classList.add("activate-li");
-    document.getElementById(element).firstChild.classList.add("activate-i");
-    document.getElementById(element).lastChild.classList.add("activate-a");
-}
+const agregarClases = (element) => {
+    const targetElement = document.getElementById(element);
+    
+    if (targetElement) {
+        // Verificamos si targetElement y sus hijos existen antes de intentar acceder a sus propiedades
+        const firstChild = targetElement.firstChild;
+        const lastChild = targetElement.lastChild;
+        
+        if (targetElement.classList) {
+            targetElement.classList.add("activate-li");
+        }
+
+        if (firstChild && firstChild.classList) {
+            firstChild.classList.add("activate-i");
+        }
+
+        if (lastChild && lastChild.classList) {
+            lastChild.classList.add("activate-a");
+        }
+    } else {
+        console.error(`El elemento con ID '${element}' no existe en el DOM.`);
+    }
+};
 
 //Con esta funcion eliminamos las clases de los botones del menu
 const eliminarClases = ()=>{
@@ -93,7 +111,7 @@ if(screen.width >=1000){
 
 //Tomar la posicion en pantalla para agregar o eliminar clases
 window.addEventListener("scroll", ()=>{
-    if(window.scrollY < getTop(document.getElementById('home')).top - 180){
+    if(window.scrollY < getTop(document.getElementById('Ubicacion-SMP')).top - 180){
         eliminarClases();
         agregarClases('click-home');
     }else if(window.scrollY >= getTop(document.getElementById('Ubicacion-SMP')).top - 180 && window.scrollY < getTop(document.getElementById('Ubicacion-EXP')).top - 100){
