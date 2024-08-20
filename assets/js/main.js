@@ -56,23 +56,22 @@ const menu = (responsive)=>{
 
 //Activamos el elemento clickeado agregando las clases con un tiempo de espera de 0 segundo, ya que tiene un bug con el css, esto para que la animacion funcione
 const agregarClases = (element) => {
-    const targetElement = document.getElementById(element);
-    
+    let targetElement = document.getElementById(element);
+
     if (targetElement) {
-        // Verificamos si targetElement y sus hijos existen antes de intentar acceder a sus propiedades
-        const firstChild = targetElement.firstChild;
-        const lastChild = targetElement.lastChild;
-        
-        if (targetElement.classList) {
-            targetElement.classList.add("activate-li");
-        }
+        // Activa la clase en el <li>
+        targetElement.classList.add("activate-li");
 
-        if (firstChild && firstChild.classList) {
-            firstChild.classList.add("activate-i");
-        }
+        // Busca el <img> y el <a> dentro de este <li> específico
+        let imgElement = targetElement.querySelector("img");
+        let anchorElement = targetElement.querySelector("a");
 
-        if (lastChild && lastChild.classList) {
-            lastChild.classList.add("activate-a");
+        // Activa las clases en los elementos correspondientes si existen
+        if (imgElement) {
+            imgElement.classList.add("activate-i");
+        }
+        if (anchorElement) {
+            anchorElement.classList.add("activate-a");
         }
     } else {
         console.error(`El elemento con ID '${element}' no existe en el DOM.`);
@@ -80,25 +79,28 @@ const agregarClases = (element) => {
 };
 
 //Con esta funcion eliminamos las clases de los botones del menu
-const eliminarClases = ()=>{
+const eliminarClases = () => {
     for (let x = 0; x < classMenu.length; x++) {
-        const element = document.getElementById(classMenu[x]);
-        if (element) {
-            const firstChild = element.firstChild;
-            const lastChild = element.lastChild;
-            
-            if (lastChild && lastChild.classList) {
-                lastChild.classList.remove("activate-a");
+        let targetElement = document.getElementById(classMenu[x]);
+
+        if (targetElement) {
+            // Desactiva la clase en el <li>
+            targetElement.classList.remove("activate-li");
+
+            // Busca el <img> y el <a> dentro de este <li> específico
+            let imgElement = targetElement.querySelector("img");
+            let anchorElement = targetElement.querySelector("a");
+
+            // Desactiva las clases en los elementos correspondientes si existen
+            if (imgElement) {
+                imgElement.classList.remove("activate-i");
             }
-            if (firstChild && firstChild.classList) {
-                firstChild.classList.remove("activate-i");
-            }
-            if (element.classList) {
-                element.classList.remove("activate-li");
+            if (anchorElement) {
+                anchorElement.classList.remove("activate-a");
             }
         }
     }
-} 
+};
 
 //Con esta condicional comprobamos en que tipo de dispositivo estan viendo la pagina 
 if(screen.width >=1000){
