@@ -262,6 +262,7 @@ main{
         .area-texto{
             color: #ffffff;
             padding: 0 100px;
+            text-align: justify;
         }
 
         .btn-contacto{
@@ -637,7 +638,9 @@ footer{
 
         .img{
             width: 250px !important;
-            height: 178px !important;
+            height: 100px !important;
+            border-radius: 15px !important;
+            margin: 0 !important;
         }
         .title-portafolios{
             font-size: 13px !important;
@@ -670,8 +673,10 @@ footer{
         padding: 0 10px !important;
     }
     .btn-contacto{
+        text-align: center;
+
         button{
-            margin-left: 20px !important;
+            margin-left: 0 !important;
         }
     }
 
