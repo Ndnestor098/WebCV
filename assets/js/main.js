@@ -59,15 +59,21 @@ const agregarClases = (element)=>{
     document.getElementById(element).classList.add("activate-li");
     document.getElementById(element).firstChild.classList.add("activate-i");
     document.getElementById(element).lastChild.classList.add("activate-a");
-    
 }
 
 //Con esta funcion eliminamos las clases de los botones del menu
 const eliminarClases = ()=>{
     for (let x = 0; x < classMenu.length; x++) {
-        document.getElementById(classMenu[x]).classList.remove("activate-li");
-        document.getElementById(classMenu[x]).firstChild.classList.remove("activate-i");
-        document.getElementById(classMenu[x]).lastChild.classList.remove("activate-a");
+        try {
+            document.getElementById(classMenu[x]).lastChild.classList.remove("activate-a");
+            document.getElementById(classMenu[x]).classList.remove("activate-li");
+            document.getElementById(classMenu[x]).firstChild.classList.remove("activate-i");
+        } catch (error) {
+            document.getElementById(classMenu[x]).lastChild.classList.remove("activate-a");
+            document.getElementById(classMenu[x]).classList.remove("activate-li");
+            document.getElementById(classMenu[x]).firstChild.classList.remove("activate-i");
+        }
+        
     }
 } 
 
