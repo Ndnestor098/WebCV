@@ -79,3 +79,25 @@ if(screen.width >=1000){
     menu(3)
 }
 
+//Tomar la posicion en pantalla para agregar o eliminar clases
+window.addEventListener("scroll", ()=>{
+    if(window.scrollY < getTop(document.getElementById('home')).top - 180){
+        eliminarClases();
+        agregarClases('click-home');
+    }else if(window.scrollY >= getTop(document.getElementById('Ubicacion-SMP')).top - 180 && window.scrollY < getTop(document.getElementById('Ubicacion-EXP')).top - 100){
+        eliminarClases();
+        agregarClases('click-sobre-mi');
+
+    }else if(window.scrollY >= getTop(document.getElementById('Ubicacion-EXP')).top - 100 && window.scrollY < getTop(document.getElementById('Ubicacion-POR')).top - 250){
+        eliminarClases();
+        agregarClases('click-experiencias');
+
+    }else if(window.scrollY >= getTop(document.getElementById('Ubicacion-POR')).top - 250 && window.scrollY < getTop(document.getElementById('Ubicacion-CT')).top - 150){
+        eliminarClases();
+        agregarClases('click-portafolio');
+
+    }else{
+        eliminarClases();
+        agregarClases('click-email');
+    }
+});
