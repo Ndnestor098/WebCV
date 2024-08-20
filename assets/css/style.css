@@ -624,6 +624,17 @@ footer{
         gap: 40px;
     }
 
+    
+
+    /* Contacto */
+    .columna-contacto{
+        margin-left: 5px;
+    }
+    .contenedor-formulario{
+        margin: 0 10px 0 10px !important;
+    }
+}
+@media (max-width: 640px) {
     /* Portafolio */
     .galeria-portafolio{
         gap: 15px !important;
@@ -637,13 +648,14 @@ footer{
         border-radius: 20px !important;
 
         .img{
-            width: 250px !important;
+            width: 300px !important;
             height: 100px !important;
             border-radius: 15px !important;
             margin: 0 !important;
         }
         .title-portafolios{
             font-size: 13px !important;
+            width: 100%;
         }
         .content-button-portafolio{
             justify-content: center !important;
@@ -655,15 +667,6 @@ footer{
         }
     }
 
-    /* Contacto */
-    .columna-contacto{
-        margin-left: 5px;
-    }
-    .contenedor-formulario{
-        margin: 0 10px 0 10px !important;
-    }
-}
-@media (max-width: 640px) {
     .area-iconos-red{
         display: none;
     }
