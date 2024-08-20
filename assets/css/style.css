@@ -624,14 +624,23 @@ footer{
     }
 
     /* Portafolio */
+    .galeria-portafolio{
+        gap: 15px !important;
+    }
     .content-portafolio{
-        height: 300px !important;
-        width: 300px !important;
+        height: min-content !important;
+        width: 100% !important;
         gap: 10px !important;
+        flex-direction: row !important;
+        padding: 10px 7px;
+        border-radius: 20px !important;
 
         .img{
             width: 250px !important;
             height: 178px !important;
+        }
+        .title-portafolios{
+            font-size: 13px !important;
         }
         .content-button-portafolio{
             justify-content: center !important;
@@ -639,7 +648,7 @@ footer{
         }
         a{
             padding: 6px !important;
-            font-size: 15px ;
+            font-size: 13px !important;
         }
     }
 
