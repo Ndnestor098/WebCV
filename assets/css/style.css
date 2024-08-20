@@ -624,7 +624,29 @@ footer{
         gap: 40px;
     }
 
-    
+    /* Portafolio */
+    .galeria-portafolio{
+        gap: 15px !important;
+    }
+    .content-portafolio{
+        height: 300px !important;
+        width: 300px !important;
+        
+        .img{
+            width: 250px !important;
+            height: 250px !important;
+        }
+        .content-button-portafolio{
+            padding: 0 !important;
+            height: 70px !important;
+            align-items: flex-start !important;
+            justify-content: center;
+        }
+        a{
+            padding: 9px !important;
+            font-size: 14px !important;
+        }
+    }
 
     /* Contacto */
     .columna-contacto{
