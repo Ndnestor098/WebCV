@@ -29,6 +29,16 @@
                 "en" : "See more",
                 "it" : "Mostra altro"
             }
+        },
+        {
+            "titulo": "Introduction to Front-End Development",
+            "imagen": "https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~R946ATB7XERA/CERTIFICATE_LANDING_PAGE~R946ATB7XERA.jpeg",
+            "enlace": "https://coursera.org/share/141d7636e8a12eadb35ddd3f9566cd25",
+            "buttom" : {
+                "es" : "Ver mas",
+                "en" : "See more",
+                "it" : "Mostra altro"
+            }
         }
     ]
 }
