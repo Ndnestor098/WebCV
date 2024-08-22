@@ -1,5 +1,5 @@
 // Suponiendo que el JSON está almacenado localmente o se obtiene de una URL
-const url = '/WebCV/assets/js/json/certicates.json'; // Reemplaza con la ruta correcta
+const url = '/WebCV/assets/js/json/certificates.json'; // Reemplaza con la ruta correcta
 
 fetch(url)
     .then(response => response.json())
