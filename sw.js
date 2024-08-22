@@ -11,6 +11,7 @@ const APP_SHELL =[
     '/WebCV/en/cv-en.pdf',
     '/WebCV/gracias.html',
     '/WebCV/assets/js/ajax.js',
+    '/WebCV/assets/js/json/certificates.json',
     '/WebCV/assets/js/efectoLuz.js',
     '/WebCV/assets/js/main.js',
     '/WebCV/assets/css/style.css',
