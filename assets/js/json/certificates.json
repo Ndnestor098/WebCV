@@ -39,6 +39,26 @@
                 "en" : "See more",
                 "it" : "Mostra altro"
             }
+        },
+        {
+            "titulo": "React Basic",
+            "imagen": "https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~ZAA2C7T26SAO/CERTIFICATE_LANDING_PAGE~ZAA2C7T26SAO.jpeg",
+            "enlace": "https://coursera.org/share/04c562aa6dbb4e3ee1931188f757a9d8",
+            "buttom" : {
+                "es" : "Ver mas",
+                "en" : "See more",
+                "it" : "Mostra altro"
+            }
+        },
+        {
+            "titulo": "Version Control with Git",
+            "imagen": "https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~FUJ14NWH0QQZ/CERTIFICATE_LANDING_PAGE~FUJ14NWH0QQZ.jpeg",
+            "enlace": "https://coursera.org/share/fe37fcdf76159069fcbb49078e87d1aa",
+            "buttom" : {
+                "es" : "Ver mas",
+                "en" : "See more",
+                "it" : "Mostra altro"
+            }
         }
     ]
 }
