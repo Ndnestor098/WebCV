@@ -1,5 +1,5 @@
 "use strict";
-const projectsUrl = '/assets/js/json/data.json';
+const projectsUrl = '/WebCV/assets/js/json/data.json';
 
 fetch(projectsUrl)
     .then(response => response.json())
