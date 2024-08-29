@@ -87,6 +87,7 @@ nav{
     position: fixed;
     bottom: 0;
     width: 100%;
+    z-index: 100;
 
     .menu{
         height: 70px;
@@ -103,7 +104,6 @@ nav{
             display: flex;
             justify-content: center;
             align-items: center;
-            z-index: 100;
 
             .menu-enlaces-iconos{
                 display: flex;
@@ -478,7 +478,7 @@ h2{
         justify-content: center;
         gap: 20px; /* Adjust this value to increase or decrease space between buttons */
         padding: 20px;
-        margin-bottom: 50px;
+        margin-bottom: 80px;
     }
     
     .brutalist-button {
