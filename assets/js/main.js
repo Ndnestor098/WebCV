@@ -124,7 +124,7 @@ window.addEventListener("scroll", ()=>{
         eliminarClases();
         agregarClases('click-experiencias');
 
-    }else if(window.scrollY >= getTop(document.getElementById('Ubicacion-POR')).top - 250 && window.scrollY < getTop(document.getElementById('Ubicacion-CT')).top - 220){
+    }else if(window.scrollY >= getTop(document.getElementById('Ubicacion-POR')).top - 250 && window.scrollY < getTop(document.getElementById('Ubicacion-CT')).top - 250){
         eliminarClases();
         agregarClases('click-portafolio');
 
