@@ -462,7 +462,7 @@ h2{
                 border-radius: 10px;
                 font-weight: bold;
                 padding: 6px;
-                font-size: 14px;
+                font-size: 13px;
             }
             
         }
@@ -839,5 +839,8 @@ footer{
     }
     .button-container{
         margin-bottom: 70px !important;
+    }
+    .title-certificado{
+        font-size: 13px !important;
     }
 }
