@@ -62,7 +62,7 @@
         }
     ],
     "projects": [{
-        "imageUrl": "/assets/img/aciz.png",
+        "imageUrl": "/WebCV/assets/img/aciz.png",
         "title": {
             "es" : "ACIZ: Sistema de Gestion",
             "it" : "ACIZ: Sistema di Gestione",
@@ -71,7 +71,7 @@
         "githubLink": "https://github.com/Ndnestor098/Software_ACIZ"
     },
     {
-        "imageUrl": "/assets/img/cv.png",
+        "imageUrl": "/WebCV/assets/img/cv.png",
         "title": {
             "es" : "CV: Mi Curriculum",
             "it" : "CV: Il Mio Curriculum",
@@ -80,7 +80,7 @@
         "githubLink": "https://github.com/Ndnestor098/CV"
     },
     {
-        "imageUrl": "/assets/img/scarpetoss.png",
+        "imageUrl": "/WebCV/assets/img/scarpetoss.png",
         "title": {
             "es" : "Scarpetoss Mejorado con Laravel",
             "it" : "Scarpetoss Migliorato con Laravel",
@@ -89,7 +89,7 @@
         "githubLink": "https://github.com/Ndnestor098/ScarpetossLaravel"
     },
     {
-        "imageUrl": "/assets/img/eduplus.png",
+        "imageUrl": "/WebCV/assets/img/eduplus.png",
         "title": {
             "es" : "EduPlus con Laravel",
             "it" : "EduPlus con Laravel",
