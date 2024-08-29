@@ -133,3 +133,15 @@ window.addEventListener("scroll", ()=>{
         agregarClases('click-email');
     }
 });
+
+//-------------------------------- Control de idioma --------------------------------
+const lang = document.getElementById('lenguague');
+const hiddenLang = document.getElementById('cancel');
+
+lang.addEventListener('click', ()=>{
+    document.getElementById('content-lenguague').style.display = "block";
+});
+
+hiddenLang.addEventListener('click', ()=>{
+    document.getElementById('content-lenguague').style.display = "none";
+})
