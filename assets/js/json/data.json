@@ -51,6 +51,16 @@
             }
         },
         {
+            "titulo": "Advanced React",
+            "imagen": "https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~X9JFT60Z8J4J/CERTIFICATE_LANDING_PAGE~X9JFT60Z8J4J.jpeg",
+            "enlace": "https://www.coursera.org/account/accomplishments/verify/X9JFT60Z8J4J",
+            "buttom" : {
+                "es" : "Ver mas",
+                "en" : "See more",
+                "it" : "Mostra altro"
+            }
+        },
+        {
             "titulo": "Version Control with Git",
             "imagen": "https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~FUJ14NWH0QQZ/CERTIFICATE_LANDING_PAGE~FUJ14NWH0QQZ.jpeg",
             "enlace": "https://coursera.org/share/fe37fcdf76159069fcbb49078e87d1aa",
