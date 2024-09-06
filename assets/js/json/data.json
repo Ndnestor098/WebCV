@@ -69,6 +69,16 @@
                 "en" : "See more",
                 "it" : "Mostra altro"
             }
+        },
+        {
+            "titulo": "APIs",
+            "imagen": "https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~552SV92THBPK/CERTIFICATE_LANDING_PAGE~552SV92THBPK.jpeg",
+            "enlace": "https://coursera.org/share/24ab00a618cf6191a569cd41c9e300f2",
+            "buttom" : {
+                "es" : "Ver mas",
+                "en" : "See more",
+                "it" : "Mostra altro"
+            }
         }
     ],
     "projects": [{
