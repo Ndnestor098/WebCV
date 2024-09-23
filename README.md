@@ -16,7 +16,7 @@ Questa applicazione web è stata sviluppata utilizzando HTML, CSS e JavaScript. 
 
 ## Schermata
 
-![Schermata](assets/img/present.png)
+![Schermata](assets/img/present.webp)
 
 ## Tecnologie Utilizzate
 
@@ -33,4 +33,3 @@ Questa applicazione web è stata sviluppata utilizzando HTML, CSS e JavaScript. 
 - **GitHub:** [github.com/Ndnestor098](https://github.com/Ndnestor098)
 
 Grazie per aver visitato la mia pagina di presentazione!
-
