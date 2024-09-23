@@ -2,7 +2,7 @@
     "certificados": [
         {
             "titulo": "SQL: A Practical Introduction for Querying Databases",
-            "imagen": "/WebCV/assets/IBM_SQL.jpeg",
+            "imagen": "/WebCV/assets/IBM_SQL.webp",
             "enlace": "https://coursera.org/share/facecf3d5e07daa479159642a9ca66c6",
             "buttom" : {
                 "es" : "Ver mas",
@@ -12,7 +12,7 @@
         },
         {
             "titulo": "Technical Support Fundamentals",
-            "imagen": "/WebCV/assets/google_technical_support.jpeg",
+            "imagen": "/WebCV/assets/google_technical_support.webp",
             "enlace": "https://coursera.org/share/a118196dbddf9be6b7a086bd55e5e78f",
             "buttom" : {
                 "es" : "Ver mas",
@@ -22,7 +22,7 @@
         },
         {
             "titulo": "Building Web Applications in PHP",
-            "imagen": "/WebCV/assets/Michigan_PHP.jpeg",
+            "imagen": "/WebCV/assets/Michigan_PHP.webp",
             "enlace": "https://coursera.org/share/bff12bf3e36946f7dfeb85b10c26b088",
             "buttom" : {
                 "es" : "Ver mas",
@@ -32,7 +32,7 @@
         },
         {
             "titulo": "Introduction to Front-End Development",
-            "imagen": "/WebCV/assets/Meta_Front_End.jpeg",
+            "imagen": "/WebCV/assets/Meta_Front_End.webp",
             "enlace": "https://coursera.org/share/141d7636e8a12eadb35ddd3f9566cd25",
             "buttom" : {
                 "es" : "Ver mas",
@@ -42,7 +42,7 @@
         },
         {
             "titulo": "React Basic",
-            "imagen": "/WebCV/assets/Meta_React_Basic.jpeg",
+            "imagen": "/WebCV/assets/Meta_React_Basic.webp",
             "enlace": "https://coursera.org/share/04c562aa6dbb4e3ee1931188f757a9d8",
             "buttom" : {
                 "es" : "Ver mas",
@@ -52,7 +52,7 @@
         },
         {
             "titulo": "Advanced React",
-            "imagen": "/WebCV/assets/Meta_React_Advanced.jpeg",
+            "imagen": "/WebCV/assets/Meta_React_Advanced.webp",
             "enlace": "https://www.coursera.org/account/accomplishments/verify/X9JFT60Z8J4J",
             "buttom" : {
                 "es" : "Ver mas",
@@ -62,7 +62,7 @@
         },
         {
             "titulo": "Version Control with Git",
-            "imagen": "/WebCV/assets/Atlassian_GIT.jpeg",
+            "imagen": "/WebCV/assets/Atlassian_GIT.webp",
             "enlace": "https://coursera.org/share/fe37fcdf76159069fcbb49078e87d1aa",
             "buttom" : {
                 "es" : "Ver mas",
@@ -72,7 +72,7 @@
         },
         {
             "titulo": "APIs",
-            "imagen": "/WebCV/assets/Meta_API.jpeg",
+            "imagen": "/WebCV/assets/Meta_API.webp",
             "enlace": "https://coursera.org/share/24ab00a618cf6191a569cd41c9e300f2",
             "buttom" : {
                 "es" : "Ver mas",
@@ -82,7 +82,7 @@
         }
     ],
     "projects": [{
-        "imageUrl": "/WebCV/assets/img/aciz.png",
+        "imageUrl": "/WebCV/assets/img/aciz.webp",
         "title": {
             "es" : "ACIZ: Sistema de Gestion",
             "it" : "ACIZ: Sistema di Gestione",
@@ -91,7 +91,7 @@
         "githubLink": "https://github.com/Ndnestor098/Software_ACIZ"
     },
     {
-        "imageUrl": "/WebCV/assets/img/cv.png",
+        "imageUrl": "/WebCV/assets/img/cv.webp",
         "title": {
             "es" : "CV: Mi Curriculum",
             "it" : "CV: Il Mio Curriculum",
@@ -100,7 +100,7 @@
         "githubLink": "https://github.com/Ndnestor098/CV"
     },
     {
-        "imageUrl": "/WebCV/assets/img/scarpetoss.png",
+        "imageUrl": "/WebCV/assets/img/scarpetoss.webp",
         "title": {
             "es" : "Scarpetoss Mejorado con Laravel",
             "it" : "Scarpetoss Migliorato con Laravel",
@@ -109,7 +109,7 @@
         "githubLink": "https://github.com/Ndnestor098/ScarpetossLaravel"
     },
     {
-        "imageUrl": "/WebCV/assets/img/eduplus.png",
+        "imageUrl": "/WebCV/assets/img/eduplus.webp",
         "title": {
             "es" : "EduPlus con Laravel",
             "it" : "EduPlus con Laravel",
