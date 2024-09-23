@@ -187,6 +187,11 @@ nav{
         display: flex;
         justify-content: center;
         align-items: end;
+
+        img{
+            width: 317px;
+            height: 382px;
+        }
     }
 }
 
@@ -220,6 +225,8 @@ h2{
             border: 7px solid #29ef8a;
             background-color: #bbbbbb;
             object-fit: cover;
+            width: 328px;
+            height: 327px;
         }
 
     }
@@ -683,6 +690,11 @@ footer{
     top: 0;
     margin: 50px 30px 0 0;
     cursor: pointer;
+
+    img{
+        width: 30px;
+        height: 24px;
+    }
 }
 
 /* Responsive */
