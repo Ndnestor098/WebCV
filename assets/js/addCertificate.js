@@ -32,6 +32,8 @@ fetch(certificatesUrl)
             enlace.target = '_blank';
             enlace.classList.add('link-github');
             let langValue = document.documentElement.lang;
+            enlace.setAttribute("aria_label", "View Coursera Certificate: " + certificado.buttom[langValue]);
+            enlace.title = "View Coursera Certificate: " + certificado.buttom[langValue];
             enlace.textContent = certificado.buttom[langValue];
 
             // Añadir el enlace al contenedor del botón
