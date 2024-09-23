@@ -1,5 +1,5 @@
 "use strict";
-const STATIC_CACHE = "cache-v2";
+const STATIC_CACHE = "cache-v3";
 const APP_SHELL =[
     '/WebCV/',
     '/WebCV/index.html',
@@ -32,8 +32,8 @@ const APP_SHELL =[
     '/WebCV/assets/img/Michigan_PHP.webp',
     '/WebCV/assets/img/Meta_React_Basic.webp',
     '/WebCV/assets/img/favicon/favicon.ico',
-    '/WebCV/assets/img/favicon/apple-touch-icon.webp',
-    '/WebCV/assets/img/favicon/android-chrome-512x512.webp',
+    '/WebCV/assets/img/favicon/apple-touch-icon.png',
+    '/WebCV/assets/img/favicon/android-chrome-512x512.png',
     '/WebCV/assets/img/svg/check.svg',
     '/WebCV/assets/img/svg/config.svg',
     '/WebCV/assets/img/svg/certificate.svg',
