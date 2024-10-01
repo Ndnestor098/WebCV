@@ -116,6 +116,15 @@
             "en" : "EduPlus with Laravel"
         },
         "githubLink": "https://github.com/Ndnestor098/EduPlus"
+    },
+    {
+        "imageUrl": "/WebCV/assets/img/Villa.png",
+        "title": {
+            "es" : "Real State Villa con Laravel y React",
+            "it" : "Real State Villa con Laravel e React",
+            "en" : "Real State Villa with Laravel and React"
+        },
+        "githubLink": "https://github.com/Ndnestor098/RealState"
     }
     ]
 }
